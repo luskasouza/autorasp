@@ -1,0 +1,29 @@
+.app {
+	border: 50px;
+	padding: 20px;
+	background:rgba(0,0,0,0.6);
+}
+.power{
+	height: 30px;
+	width: 50%;
+	background-color: green;
+	border-radius: 10px;
+}
+.btn-end{
+	float: right;
+}
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("../img/img.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
