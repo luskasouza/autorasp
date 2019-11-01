@@ -9,14 +9,6 @@
 	$pc   = @$_POST['pc'];
 	$air  = @$_POST['ar'];
 
-	#default
-	/*
-	$log = fopen('inter.log', 'r');
-	echo $s1 = $log[0];
-	echo $s2 = $log[1];
-	echo $s3 = $log[2];
-	echo $s4 = $log[3];
-	*/
 	#form
 	$lamp_log = 'off';
 	$tv_log = 'off';  
@@ -108,11 +100,11 @@
 					<span>Air</span>
 					<span class="btn-end">Status: <?php echo $s4; ?></span>
 				</div>
-					<input type="reset" name="" value="Limpar" class="btn btn-danger btn-end">
+					<input type="reset" name="" value="Desligar todos" class="btn btn-danger btn-end">
 			</div>
 			
 			<div class="d-flex justify-content-center">
-				<input type="submit" name="" value="Enviar" class="btn btn-success">	
+				<input type="submit" name="" value="Ligar selecionados" class="btn btn-success">	
 			</div>
 		</form>
 	</div>
